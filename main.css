@@ -1,0 +1,42 @@
+*{
+	color:white;
+	margin: none;
+	padding:0px;
+	font-family:  tahoma;
+}
+body{
+	background: rgb(0, 51, 153);
+	height: 100%;
+}
+header{
+	text-align: center;
+}
+nav{
+	    padding: 30px;
+	   	text-align: center;
+	   	text-decoration: none;
+	   	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+nav a{
+	transition:all linear 0.15s;
+		border-radius: 5px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: rgba(13, 3, 7, 0);		
+		border: 1px;
+		border-style: solid;
+		border-color: white;
+		color:white;
+		text-decoration: none;
+}
+nav a:hover{
+	transition:all linear 0.15s;
+	background: white;
+		color:rgb(0, 51, 153)
+
+}

